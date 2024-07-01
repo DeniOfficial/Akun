@@ -28,3 +28,16 @@ proxies:
       headers:
         Host: id1.v2vmess.site
     udp: true
+  - name: sshocean-mbuy_ws
+    server: id1.trojanvpn.de
+    port: 443
+    type: trojan
+    password: e656937a-2696-4084-ab82-38b6dc3a577c
+    skip-cert-verify: true
+    sni: id1.trojanvpn.de
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id1.trojanvpn.de
+    udp: true
