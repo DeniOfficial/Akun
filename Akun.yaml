@@ -1,5 +1,5 @@
 proxies:
-  - name: Edu
+  - name: Edukasi
     server: s.udemycdn.com
     port: 443
     type: trojan
@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: sg2-trojan.bonds.id
     udp: true
-  - name: sshocean-puqi-ws
+  - name: Ssh Vmess
     server: s.udemycdn.com
     port: 443
     type: vmess
@@ -28,8 +28,8 @@ proxies:
       headers:
         Host: id1.v2vmess.site
     udp: true
-  - name: sshocean-mbuy_ws
-    server: id1.trojanvpn.de
+  - name: Sshocean Trojan
+    server: s.udemycdn.com
     port: 443
     type: trojan
     password: e656937a-2696-4084-ab82-38b6dc3a577c
