@@ -12,46 +12,6 @@ proxies:
       headers:
         Host: sg2-trojan.bonds.id
     udp: true
-  - name: Edo
-    server: vidio.com
-    port: 443
-    type: trojan
-    password: fe6d1710-33b3-11ef-9fe6-1239d0255272
-    skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg2-trojan.bonds.id
-    udp: true
-  - name: sshocean-denn_ws
-    server: s.udemycdn.com
-    port: 443
-    type: trojan
-    password: 0301816d-4edf-4a53-98c9-fd33a884f185
-    skip-cert-verify: true
-    sni: id1.trojanvpn.de
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: id1.trojanvpn.de
-    udp: true
-  - name: serverssh-Kwontoll
-    server: s.udemycdn.com
-    port: 443
-    type: vmess
-    uuid: dd715028-37b6-42bd-a9f6-6f63ce970127
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idgrpc.serverip.my.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: grpc
-    udp: true
   - name: sshocean-puqi-ws
     server: s.udemycdn.com
     port: 443
