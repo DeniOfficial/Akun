@@ -42,7 +42,7 @@ proxies:
         Host: id1.trojanvpn.de
     udp: true
   - name: Vidio
-    server: quiz.int.video.com
+    server: quiz.int.vidio.com
     port: 443
     type: vless
     uuid: e1c8b915-915d-4b6d-8250-08a332a9c89f
