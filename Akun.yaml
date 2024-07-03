@@ -1,6 +1,6 @@
 proxies:
   - name: Edukasi
-    server: edu.ruangguru.com
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
     password: fe6d1710-33b3-11ef-9fe6-1239d0255272
@@ -13,7 +13,7 @@ proxies:
         Host: sg2-trojan.bonds.id
     udp: true
   - name: Ssh Vmess
-    server: gw.ruangguru.com
+    server: quiz.int.vidio.com
     port: 443
     type: vmess
     uuid: ac8e44ac-9d3d-45a0-89a0-875bee1a5127
@@ -29,7 +29,7 @@ proxies:
         Host: id1.v2vmess.site
     udp: true
   - name: Sshocean Trojan
-    server: s.udemycdn.com
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
     password: e656937a-2696-4084-ab82-38b6dc3a577c
