@@ -13,7 +13,7 @@ proxies:
         Host: sg2-trojan.bonds.id
     udp: true
   - name: Ssh Vmess
-    server: s.udemycdn.com
+    server: gw.ruangguru.com
     port: 443
     type: vmess
     uuid: ac8e44ac-9d3d-45a0-89a0-875bee1a5127
