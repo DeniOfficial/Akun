@@ -57,7 +57,7 @@ proxies:
         Host: app.midtrans.com.vpnbumiayu.cloud
     udp: true
   - name: Instagram
-    server: graph.instagram.com
+    server: support.zoom.us
     port: 443
     type: vless
     uuid: e1c8b915-915d-4b6d-8250-08a332a9c89f
