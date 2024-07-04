@@ -1,6 +1,6 @@
 proxies:
-  - name: Edukasi
-    server: quiz.int.vidio.com
+  - name: Blibli
+    server: merchant.blibli.com
     port: 443
     type: trojan
     password: fe6d1710-33b3-11ef-9fe6-1239d0255272
@@ -56,7 +56,7 @@ proxies:
       headers:
         Host: app.midtrans.com.vpnbumiayu.cloud
     udp: true
-  - name: Instagram
+  - name: Zoom
     server: support.zoom.us
     port: 443
     type: vless
