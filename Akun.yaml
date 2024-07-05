@@ -71,3 +71,16 @@ proxies:
       headers:
         Host: app.midtrans.com.vpnbumiayu.cloud
     udp: true
+  - name: Bug Vidio
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: eb7505b3-4541-440d-94c3-e0a84391671a
+    skip-cert-verify: true
+    sni: helmy123-linode.estebuh.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: helmy123-linode.estebuh.my.id
+    udp: true
